@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #3732b3;
+    --secondary-color: #F8E1DB;
+    --grey: #425a78;
+    --dark: #232f3e;
+    --primary-font: "Roboto";
+    --primary-font-md: "Roboto Medium";
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;/* or 62.5% */
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    background-color: #FAF4F2;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+/*!------------------------------- start header ------------------------------- */
+.header{
+    /* background-color: var(--primary-color); */
+}
+.topBar{
+    background-color: #272397;
+}
+.topBar .container{
+    padding: 0 2rem;
+    display: flex;
+    height: 2.8rem;
+    align-items: center;
+    justify-content: space-between;
+    color: #bbc6ff;
+    font-size: 1.2rem;
+
+}
+.topBar .fTag{
+    padding: 0 1rem;
+    display: none;}
+.topBar .topBarRight >a{
+    padding:  0 .8rem;
+    color: #bbc6ff;
+}
+.topBar .topBarRight >a:nth-last-of-type(1){
+    padding: 0 0 0 .8rem;
+}
+.topBar .topBarRight >a > i{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+/* ? end top bar */
+.logoArea{
+    height: 6rem;
+}
+.logoArea .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoBox{
+    width: 65%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+.logoBoxImg{
+    width: 425px;
+    max-width: 100%;
+}
+.wrapper{
+    display: flex;
+}
+.hamburgerMenu{
+    line-height: 60px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 2.5rem;
+}
+.logoAreaSearchIcon{
+    padding-right: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}

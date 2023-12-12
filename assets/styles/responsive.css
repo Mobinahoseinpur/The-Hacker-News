@@ -1,0 +1,34 @@
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .topBar .fTag{display: inline;}
+    .topBar .container{
+        font-size: 1.4rem;
+        padding: 0 3.5rem;
+    }
+    .topBar .topBarRight >a > i{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    .topBar .topBarRight >a{
+        padding:  0 1.2rem;
+    }
+    .topBar .topBarRight >a:nth-last-of-type(1){
+        padding: 0 0 0 1.2rem;
+    }
+    /* ? end top bar */
+    .logoArea{
+        height: 7.7rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
