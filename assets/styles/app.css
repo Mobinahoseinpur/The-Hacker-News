@@ -22,7 +22,7 @@ body {
     line-height: 1.6;
     font-size: 1.6rem;
     font-family: var(--primary-font);
-    background-color: #FAF4F2;
+    /* background-color: #FAF4F2; */
     overflow-x: hidden;
 }
 
@@ -83,16 +83,80 @@ a {
 .wrapper{
     display: flex;
 }
-.hamburgerMenu{
+.hamburgerMenuMobile{
     line-height: 60px;
     height: 60px;
     font-size: 20px;
     padding-left: 2.5rem;
+    cursor: pointer;
 }
-.logoAreaSearchIcon{
+.logoAreaSearchIconMobile{
     padding-right: 1rem;
     color: #fff;
     display: flex;
     align-items: center;
     font-size: 2rem;
+}
+.sub-button{
+    display: none;
+}
+/*  */
+.mobileMenuUl{
+
+    background: #fff;
+    height: 4.6rem;
+    font-size: 1.5rem;
+    color: #555555;
+    /* box-shadow: 0 5px 0 rgb(223 231 255); */
+    border-bottom: 4px solid #ffdb4d;
+    margin-bottom: 1rem;
+}
+.desktopMenu{
+    font-size: 1.5rem;
+}
+.searchMenu{
+    background-color: #fff;
+}
+
+.searchBox{
+    background-color: #fafafa ;
+    margin: 0 auto;
+    /* padding: 1rem 2rem; */
+}
+.searchB{
+    /* min-height: 30px; */
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.searchB input{
+    width: 100%;
+    border: 1px solid #ddd;
+    outline: 0;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 2px;
+    color: #555555;
+}
+.search-here{
+    padding: 0 2.3rem;
+}
+/**---------------------------------------- end header---------------------------------  */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 2rem;
+    min-height: 290px;
+    transition: .4s;
+    background-color: #F0F5FF;
+}
+.banner:hover{
+    transform: scale(1.02);
+}
+.banner img{
+    border-radius: .6rem;
+    max-height: 90px;
 }

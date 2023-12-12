@@ -1,7 +1,7 @@
 .container {
     width: 100%;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     margin-right: auto;
     margin-left: auto;
     /* background-color: red;
@@ -11,19 +11,19 @@
 
 @media (min-width: 576px) {
     .container {
-        width: 54rem;
+        /* width: 54rem; */
     }
 }
 
 @media (min-width: 768px) {
     .container {
-        width: 72rem;
+        /* width: 72rem; */
     }
 }
 
 @media (min-width: 992px) {
     .container {
-        width: 96rem;
+        /* width: 96rem; */
     }
 }
 
