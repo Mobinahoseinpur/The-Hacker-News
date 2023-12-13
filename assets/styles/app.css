@@ -173,7 +173,9 @@ a {
 }
 .main .container{
     display: flex;
+    flex-direction: column;
 }
+.main .container{display: flex;}
 #blog-pager-newer-link{}
 #blog-pager-newer-link a , #blog-pager-older-link a{
     font-size: 1.6rem;
